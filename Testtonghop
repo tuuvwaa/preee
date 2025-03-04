@@ -122,7 +122,7 @@ TanhTab:AddButton({
         })
     end
 })
-PlayerTab:AddButton({
+MainTab:AddButton({
     Title = "Redz TiengViet",
     Description = "Nên Dùng",
     Callback = function()
