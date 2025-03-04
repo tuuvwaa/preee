@@ -122,6 +122,13 @@ TanhTab:AddButton({
         })
     end
 })
+PlayerTab:AddButton({
+    Title = "Redz TiengViet",
+    Description = "Nên Dùng",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/ScriptMaru/refs/heads/main/MaruHubPremium.Lua"))()
+    end
+})
 MainTab:AddButton({
     Title = "Redz Hub",
     Description = "",
@@ -268,13 +275,6 @@ MainTab:AddButton({
     Description = "Script Của Chủ Script",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/ScriptAnhTuanIOS/refs/heads/main/ScriptTuanAnhIOS.lua"))()
-    end
-})
-PlayerTab:AddButton({
-    Title = "Auto Bounty Premium",
-    Description = "Premium Kèm Sẵn Key",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Trollreset/refs/heads/main/hehe"))()
     end
 })
 
